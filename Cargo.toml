@@ -1,0 +1,13 @@
+[package]
+name = "system-metrics-tray-app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.24.7"
+sysinfo = "0.29.11"
+tray-icon = "0.11.0"
+winapi = "0.3.9"
+winit = "0.29.4"
